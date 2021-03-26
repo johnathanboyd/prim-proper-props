@@ -1,6 +1,17 @@
-function DinnerSupplies(){
+function DinnerSupplies(props){
     return(
-        <h1>DINNER SUPPLIES</h1>
+        <div>
+            <h2>Dinner Supplies</h2>
+          <div>
+            Spoons: {props.guestList.length * 2}
+          </div>
+          <div>
+            Forks: {props.guestList.length * 2}
+          </div>
+          <div>
+            Knives: {props.guestList.length * 2}
+          </div>
+        </div>
     )
 }
 
