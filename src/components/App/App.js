@@ -66,7 +66,7 @@ function App() {
       setNewGuestName={ setNewGuestName }
       newGuestMeal={ newGuestMeal }
       setNewGuestMeal={ setNewGuestMeal }
-      handleSubmit={handleSubmit}
+      handleSubmit={ handleSubmit }
       />
       <GuestList guestList={ guestList } />
       <DinnerSupplies guestList={ guestList }/>
